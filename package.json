@@ -1,0 +1,27 @@
+{
+  "name": "git_test",
+  "version": "1.0.0",
+  "description": "To try out React",
+  "main": "part1.html",
+  "scripts": {
+    "start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shiladry/React.git"
+  },
+  "author": "Shiladry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shiladry/React/issues"
+  },
+  "homepage": "https://github.com/Shiladry/React#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
